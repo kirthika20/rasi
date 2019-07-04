@@ -1,8 +1,17 @@
-a=int(input())
-if(a>0):
-  if(a%2==0):
-    print("Even")
+new=input()
+if(new.isalpha()):
+  if(new=='a'):
+    print("Vowel")
+  elif(new=='e'):
+    print("Vowel")
+  elif(new=='i'):
+    print("Vowel")
+  elif(new=='o'):
+    print("Vowel")
+  elif(new=='u'):
+    print("Vowel")
   else:
-    print("Odd")
+    print("Consonant")
 else:
   print("invalid")
+ 
